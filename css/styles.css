@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    background: lightcyan;
+}
+
+header,
+footer {
+    flex-shrink: 0;
+    padding: 1rem;
+    background: dodgerblue;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+section {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: seashell;
+    border: 1px solid deepskyblue;
+    border-radius: 6px;
+}
+
+p {
+    padding-bottom: 1rem;
+    line-height: 1.5;
+}
+
+label {
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input {
+    padding: 1rem;
+    border: 1px solid turquoise;
+    border-radius: 4px;
+}
+
+button {
+    padding: 1rem;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    background: aqua;
+    color: black;
+}
+
+button:hover {
+    background: darkturquoise;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+#vehicleDetails section {
+    margin-top: 1rem;
+    padding: 0;
+    border: none;
+}
+
+#vehicleDetails div {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid darkslategray;
+}
+
+#vehicleDetails span:first-child {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 1rem;
+}
