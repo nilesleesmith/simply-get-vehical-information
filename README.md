@@ -1,85 +1,68 @@
 # VIN Vehicle Details Lookup
 
-A simple JavaScript project that uses a vehicle identification number to retrieve vehicle information from the NHTSA API.
+Enter a 17-character VIN to retrieve available vehicle details from NHTSA's vPIC API.
 
-## About
+## Overview
 
-This project allows a user to enter a 17-character VIN and retrieve available vehicle details.
+VIN Vehicle Details Lookup lets a user enter a VIN and request decoded vehicle information from the National Highway Traffic Safety Administration Vehicle Product Information Catalog (vPIC) API.
 
-The project uses the National Highway Traffic Safety Administration Vehicle Product Information Catalog API to decode the VIN and return vehicle information.
-
-The results are processed with JavaScript and displayed dynamically on the page.
+The application processes the returned data, removes empty values, and displays the available vehicle details in the browser.
 
 ## Features
 
-- Enter a vehicle identification number
-- Validate basic VIN length
-- Send a request to the NHTSA API
-- Retrieve decoded vehicle information
+- Enter a 17-character VIN
+- Validate that a VIN was entered and contains 17 characters
+- Request decoded vehicle information from the NHTSA vPIC API
+- Process returned vehicle data
 - Ignore empty values
 - Display available vehicle details dynamically
 
-## Topics Practiced
-
-### APIs
-
-- Using `fetch()`
-- Working with API endpoints
-- Reading JSON responses
-- Accessing API response data
-
-### Objects and Arrays
-
-- Using `Object.keys()`
-- Using `Object.values()`
-- Creating objects
-- Creating arrays
-- Adding values to arrays
-
-### Loops
-
-- Using `for` loops
-- Iterating through API data
-- Matching object keys with values
-
-### DOM Manipulation
-
-- Selecting elements
-- Creating HTML elements
-- Updating text
-- Appending elements
-- Clearing previous results
-
-### Functions
-
-- Declaring functions
-- Passing arguments
-- Using parameters
-- Separating data retrieval from page rendering
-
-### Conditionals
-
-- Checking user input
-- Validating VIN length
-- Ignoring empty API values
-
 ## Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- NHTSA Vehicle Product Information Catalog API
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+</p>
 
-## Running the Project
+- [NHTSA Vehicle Product Information Catalog (vPIC) API](https://vpic.nhtsa.dot.gov/api/)
 
-1. Clone or download the repository.
-2. Open `index.html`.
-3. Enter a 17-character VIN.
-4. Select the button to retrieve vehicle details.
-5. Open the browser developer tools and select the Console to view logged data.
+## How to Run
 
-## Purpose
+1. Clone the repository:
 
-This project was created while practicing JavaScript APIs, objects, arrays, loops, functions, and DOM manipulation.
+```bash
+git clone https://github.com/nilesleesmith/simply-get-vehical-information.git
+```
 
-The focus is on retrieving structured data from an external API, processing that data, and displaying the results dynamically in the browser.
+2. Open the project folder.
+
+3. Open `index.html` in a web browser.
+
+No additional packages or build steps are required.
+
+## Live Site
+
+Coming soon.
+
+## Screenshots
+
+### Desktop
+
+![VIN Vehicle Details Lookup desktop view](./screenshots/simply-get-vehical-information-desktop.png)
+
+### Tablet
+
+![VIN Vehicle Details Lookup tablet view](./screenshots/simply-get-vehical-information-tablet.png)
+
+### Mobile
+
+![VIN Vehicle Details Lookup mobile view](./screenshots/simply-get-vehical-information-mobile.png)
