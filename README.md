@@ -51,18 +51,9 @@ No additional packages or build steps are required.
 
 ## Live Site
 
-Coming soon.
+https://nilesleesmith.github.io/simply-get-vehical-information/
 
 ## Screenshots
 
-### Desktop
-
 ![VIN Vehicle Details Lookup desktop view](./screenshots/simply-get-vehical-information-desktop.png)
 
-### Tablet
-
-![VIN Vehicle Details Lookup tablet view](./screenshots/simply-get-vehical-information-tablet.png)
-
-### Mobile
-
-![VIN Vehicle Details Lookup mobile view](./screenshots/simply-get-vehical-information-mobile.png)
